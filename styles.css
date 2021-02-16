@@ -2,16 +2,7 @@
 
 /* --------- Estilos Generales ------------------------------- */
 :root{
-    --global--CR_Red: #dc0000;
-    --global--NC_Blue: #0f0f6d;
-    --global--PN_Blue: #285bd4;
-    --global--BL_Turquoise: #79e8e2;
-    --global--CA_Black: #1e1e2c;
-    --global--CA_White: #fbf8ef;
-    --global--CA_Cream: #eed6bb;
-    --global--GT_Yellow: #f8ad1e;
-    --global--ES_Pink: #f24f8a;
-    --global--HN_Orange: #DA7D46;
+    --global--BL-Turquoise: #79e8e2;
 }
 
 /* --------- Estilos Inicio ------------------------------- */
@@ -21,12 +12,8 @@ li#menu-item-903 a {
 
 li#menu-item-903 {
     display: block;
-    background-color: var(--global--BL_Turquoise);
+    background-color: var(--global--BL-Turquoise);
 }
-
-
-
-
 
 
 
