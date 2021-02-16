@@ -1,7 +1,18 @@
 /* WCCA 2021 Styles*/
 
 /* --------- Estilos Generales ------------------------------- */
-
+:root{
+    --CR_Red: #dc0000;
+    --NC_Blue: #0f0f6d;
+    --PN_Blue: #285bd4;
+    --BL_Turquoise: #79e8e2;
+    --CA_Black: #1e1e2c;
+    --CA_White: #fbf8ef;
+    --CA_Cream: #eed6bb;
+    --GT_Yellow: #f8ad1e;
+    --ES_Pink: #f24f8a;
+    --HN_Orange: #DA7D46;
+}
 
 
 
@@ -15,8 +26,14 @@
 
 
 /* --------- Estilos Inicio ------------------------------- */
+li#menu-item-903 a {
+    color: black;
+}
 
-
+li#menu-item-903 {
+    display: block;
+    background-color: var(--BL_Turquoise);
+}
 
 
 
