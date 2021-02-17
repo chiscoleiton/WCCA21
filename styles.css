@@ -16,9 +16,7 @@
 */
 
 /* --------- Tipografías ------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,400&display=swap');
-
-body {
+body, .entry-content, .menu-item a, .powered-by {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
