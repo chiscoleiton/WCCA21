@@ -27,7 +27,14 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 900;
 }
 
+.wp-block-button__link {
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 900!important;
+    font-size: 1.5em!important;
+}
+
 /* --------- Estilos Inicio ------------------------------- */
+/**Menú**/
 li#menu-item-903 a {
     color: black;
 }
@@ -37,6 +44,20 @@ li#menu-item-903 {
     background-color: #79e8e2;
 }
 
+/**Sección: Lo hacen posible**/
+.by-column {
+    background: #79e8e2;
+    padding: 1em;
+}
+
+.by-column figure {
+    max-width: 150px;
+}
+
+.by-column .wp-block-button__link {
+    color: #1e1e2c!important;
+    border-color: #1e1e2c!important;
+}
 
 
 
