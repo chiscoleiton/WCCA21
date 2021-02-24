@@ -45,7 +45,7 @@ li#menu-item-903 {
 }
 
 a.custom-logo-link:focus {
-    background: none!important;
+    background: transparent!important;
 }
 
 /**General**/
