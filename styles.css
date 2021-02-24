@@ -44,6 +44,10 @@ li#menu-item-903 {
     background-color: #79e8e2;
 }
 
+a.custom-logo-link:focus {
+    background: none!important;
+}
+
 /**General**/
 .page-id-882 .entry-header {
     display: none;
