@@ -35,17 +35,13 @@ h1, h2, h3, h4, h5, h6,
 
 /* --------- Estilos Inicio ------------------------------- */
 /**Menú**/
-li#menu-item-903 a {
+li#menu-item-1185 a {
     color: black;
 }
 
-li#menu-item-903 {
+li#menu-item-1185 {
     display: block;
     background-color: #79e8e2;
-}
-
-a.custom-logo-link:focus {
-    background: transparent!important;
 }
 
 /**General**/
