@@ -16,7 +16,7 @@
 */
 
 /* --------- Tipografías ------------------------------- */
-body, .entry-content, .menu-item a, .powered-by {
+body, .entry-content, .menu-item a, .powered-by, li {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
