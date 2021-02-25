@@ -49,6 +49,10 @@ li#menu-item-1185 {
     display: none;
 }
 
+.hero-wcca, .anuncio-wcca, .asisti-al-wordcamp, .div-wcca, .lo-hacen-posible, .seccion-noticias {
+    margin-bottom: 4em;
+}
+
 section#blog_subscription-4 {
     display: none;
 }
@@ -75,6 +79,10 @@ section#blog_subscription-4 {
 .by-column .wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):not(.has-text-color):hover {
     background: #1e1e2c!important;
     color: #79e8e2!important;
+}
+
+.lo-hacen-posible a.wp-block-button__link {
+    font-size: 1.25em!important;
 }
 
 /**Sección: Noticias**/
