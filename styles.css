@@ -127,6 +127,7 @@ li#menu-item-1185 {
     padding-top: 2em;
 }
 
+/**TELICA**/
 .sponsor-level.telica {
     grid-template-columns: repeat(2,1fr);
     display: grid;
@@ -157,6 +158,80 @@ li#menu-item-1185 {
 
 @media only screen and (max-width: 652px) {
     .sponsor-level.telica {
+        grid-template-columns: 1fr;
+	column-gap: 0;
+        padding: 0 1em;
+	}
+}
+
+/**ARENAL**/
+.sponsor-level.arenal {
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    column-gap: calc(2 * var(--global--spacing-horizontal));
+    justify-items: center;
+}
+
+.arenal h4.sponsor-level-title {
+    grid-column: 1/4;
+    color: #000;
+    border-bottom: 2px solid #000;
+    width: 94%;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 2em;
+}
+
+.arenal h4.sponsor-level-title:before {
+    content: url(https://centroamerica.wordcamp.org/2021/files/2021/02/volcan-arenal.png);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sponsor-level.arenal a img {
+    max-width: 300px!important;
+    min-height: 100px !important;/*FIXME*/
+}
+
+@media only screen and (max-width: 652px) {
+    .sponsor-level.arenal {
+        grid-template-columns: 1fr;
+	column-gap: 0;
+        padding: 0 1em;
+	}
+}
+
+/**IZALCO**/
+.sponsor-level.izalco {
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    column-gap: calc(2 * var(--global--spacing-horizontal));
+    justify-items: center;
+}
+
+.izalco h4.sponsor-level-title {
+    grid-column: 1/5;
+    color: #000;
+    border-bottom: 2px solid #000;
+    width: 94%;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 2em;
+}
+
+.izalco h4.sponsor-level-title:before {
+    content: url(https://centroamerica.wordcamp.org/2021/files/2021/02/volcan-izalco.png);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sponsor-level.izalco a img {
+    max-width: 200px !important;
+    min-height: 80px !important;/*FIXME*/
+}
+
+@media only screen and (max-width: 652px) {
+    .sponsor-level.izalco {
         grid-template-columns: 1fr;
 	column-gap: 0;
         padding: 0 1em;
