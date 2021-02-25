@@ -179,7 +179,11 @@ section#blog_subscription-4 {
     justify-self: center;
 }
 
-
+@media only screen and (max-width: 652px) {
+section#blog_subscription-4 {
+    width: 100%;
+   }
+}
 
 
 /* --------- Estilos Codigo de Conducta ------------------------ */
