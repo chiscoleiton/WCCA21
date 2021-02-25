@@ -35,16 +35,6 @@ h1, h2, h3, h4, h5, h6,
 
 /* --------- Estilos Inicio ------------------------------- */
 /**Menú**/
-li#menu-item-903 a {
-    color: black;
-}
-
-li#menu-item-903 {
-    display: block;
-    background-color: #79e8e2;
-    margin-right: 1em; /**Espacio entre menús**/
-}
-
 li#menu-item-1185 a {
     color: black;
 }
