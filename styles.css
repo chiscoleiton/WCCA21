@@ -103,9 +103,25 @@ li#menu-item-1185 {
 
 
 
+/* --------- Estilos Patrocinadores ------------------------------- */
+/**TEMPORAL-FIXME**/
+a.sponsor-logo {
+    margin-top: 1em;
+    background: #fff;
+    padding: 1em 10px 10px;
+}
 
+@media only screen and (min-width: 1024px) {
+    .widget-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
-
+@media only screen and (min-width: 652px) {
+    .widget-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
 
