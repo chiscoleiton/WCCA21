@@ -152,9 +152,8 @@ li#menu-item-1185 {
 }
 
 .sponsor-level.telica a img {
-    width: auto!important;
-    min-height: 100px !important;/**FIXME**/
-    padding: 1.5em;
+    max-width: 400px!important;
+    min-height: 100px !important;/*FIXME*/
 }
 
 @media only screen and (max-width: 652px) {
@@ -190,9 +189,8 @@ li#menu-item-1185 {
 }
 
 .sponsor-level.arenal a img {
-    width: auto!important;
-    min-height: 80px !important;/**FIXME**/
-    padding: 2.25em;
+    max-width: 300px!important;
+    min-height: 100px !important;/*FIXME*/
 }
 
 @media only screen and (max-width: 652px) {
@@ -207,7 +205,7 @@ li#menu-item-1185 {
 .sponsor-level.izalco {
     grid-template-columns: repeat(4,1fr);
     display: grid;
-    column-gap: 0;
+    column-gap: calc(2 * var(--global--spacing-horizontal));
     justify-items: center;
 }
 
@@ -229,9 +227,7 @@ li#menu-item-1185 {
 
 .sponsor-level.izalco a img {
     max-width: 200px !important;
-    width: auto!important;
-    min-height: 80px !important;
-    height: auto!important;
+    min-height: 80px !important;/*FIXME*/
 }
 
 @media only screen and (max-width: 652px) {
