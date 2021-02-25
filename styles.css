@@ -127,6 +127,13 @@ li#menu-item-1185 {
     padding-top: 2em;
 }
 
+section#wcb_sponsors-3:after {
+    display: flex;
+    content: url(https://centroamerica.wordcamp.org/2021/files/2021/02/separador-wcca.png);
+    justify-content: center;
+    padding-top: 2em;
+}
+
 /**TELICA**/
 .sponsor-level.telica {
     grid-template-columns: repeat(2,1fr);
@@ -238,10 +245,28 @@ li#menu-item-1185 {
 	}
 }
 
+/**Full width a sponsors**/
+aside.widget-area {
+    position: fixed;
+    display: contents;
+}
+
+.sponsor-level.telica,
+.sponsor-level.arenal,
+.sponsor-level.izalco {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /**CSS Temporal para caja de suscripción**/
 section#blog_subscription-4 {
     width: 50%;
     justify-self: center;
+}
+
+section#blog_subscription-4 {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 652px) {
@@ -249,6 +274,7 @@ section#blog_subscription-4 {
     width: 100%;
    }
 }
+
 
 
 /* --------- Estilos Codigo de Conducta ------------------------ */
