@@ -22,7 +22,8 @@ body, .entry-content, .menu-item a, .powered-by, li {
 }
 
 h1, h2, h3, h4, h5, h6,
-.singular .entry-title {
+.singular .entry-title,
+.page-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
 }
@@ -96,7 +97,18 @@ section#blog_subscription-4 {
     text-decoration: none;
 }
 
+.wp-block-latest-posts.is-grid li {
+    margin: 0 0 1.25em 0;
+}
 
+@media (min-width: 600px) {
+    .wp-block-latest-posts.columns-2 li {
+        width: calc(50% - 2.5em);
+    }
+    .wp-block-latest-posts.is-grid li {
+        margin: 0 5em 1.25em 0;
+    }
+}
 
 
 
