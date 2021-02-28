@@ -16,7 +16,8 @@
 */
 
 /* --------- Tipografías ------------------------------- */
-body, .entry-content, .menu-item a, .powered-by, li {
+body, .entry-content, .menu-item a, .powered-by, li,
+.tix_tickets_table th {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
