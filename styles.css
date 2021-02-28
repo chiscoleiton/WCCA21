@@ -354,6 +354,17 @@ form#subscribe-blog-blog_subscription-4 {
 
 
 
+/* --------- Estilos Camptix ------------------------------- */
+/**Fix rápido para https://github.com/Automattic/camptix/issues/137**/
+#tix p {
+    margin: 1em 0!important;
+}
+
+@media only screen and (max-width: 480px) {
+    #tix form {
+        overflow-x: auto;
+    }
+}
 
 
 
