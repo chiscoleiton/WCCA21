@@ -1,7 +1,7 @@
 /* WCCA 2021 Styles*/
 
 /* --------- Estilos Generales ------------------------------- */
-/* --------- Paleta de Colores ------------------------------- 
+/* --------- Paleta de Colores -------------------------------
 
     --global--CR_Red: #dc0000;
     --global--NC_Blue: #0f0f6d;
@@ -191,14 +191,15 @@ section#wcb_sponsors-3:after {
 
 .sponsor-level.telica a img {
     max-width: 400px!important;
+    height: auto!important;
     min-height: 100px !important;/*FIXME*/
 }
 
 @media only screen and (max-width: 652px) {
     .sponsor-level.telica {
-        grid-template-columns: 1fr;
-	column-gap: 0;
-        padding: 0 1em;
+          grid-template-columns: 1fr;
+          column-gap: 0;
+          padding: 0 1em;
 	}
 }
 
@@ -228,6 +229,7 @@ section#wcb_sponsors-3:after {
 
 .sponsor-level.arenal a img {
     max-width: 300px!important;
+    height: auto!important;
     min-height: 100px !important;/*FIXME*/
 }
 
@@ -265,6 +267,7 @@ section#wcb_sponsors-3:after {
 
 .sponsor-level.izalco a img {
     max-width: 200px !important;
+    height: auto!important;
     min-height: 80px !important;/*FIXME*/
 }
 
@@ -367,10 +370,3 @@ form#subscribe-blog-blog_subscription-4 {
         overflow-x: auto;
     }
 }
-
-
-
-
-
-
-
