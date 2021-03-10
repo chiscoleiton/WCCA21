@@ -355,6 +355,55 @@ form#subscribe-blog-blog_subscription-4 {
 }
 
 
+/* --------- Estilos Asistentes ------------------------ */
+
+#tix-attendees li {
+	height: 308px;
+	background: url('https://centroamerica.wordcamp.org/2021/files/2021/03/asistente-back.png') no-repeat center center;
+}
+
+#tix-attendees .avatar {
+	float: none;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	margin: 105px auto 0;
+	border: 5px solid #1e1e2c;
+}
+
+#tix-attendees .tix-field {
+	margin-left: 0;
+	text-align: center;
+}
+
+.tix-field.tix-attendee-name {
+	font-weight: 900;
+}
+
+span.tix-first,
+span.tix-last {
+	display: block;
+}
+
+#tix-attendees ul {
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 782px) {
+
+#tix-attendees .tix-columns-4 li {
+    width: 50%;
+  }
+	
+}
+
+@media only screen and (max-width: 482px) {
+
+#tix-attendees .tix-columns-4 li {
+    width: 100%;
+  }
+	
+}
 
 
 /* --------- Estilos Codigo de Conducta ------------------------ */
