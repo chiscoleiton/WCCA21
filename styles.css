@@ -165,6 +165,10 @@ section#wcb_sponsors-3:after {
     padding-top: 2em;
 }
 
+h4.sponsor-level-title {
+    margin-top: 1em;
+}
+
 /**TELICA**/
 .sponsor-level.telica {
     grid-template-columns: repeat(2,1fr);
