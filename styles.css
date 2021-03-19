@@ -239,6 +239,11 @@ ul.wordcamp-block.wordcamp-post-list li:nth-child(7) {
     max-width: 1240px;
 }
 
+/**ESCONDER ENCABEZADO EN SESIONES DE UN SOLO PONENTE**/
+.single-wcb_session h2.session-speakers {
+    display: none;
+}
+
 /* --------- Estilos Patrocinadores ------------------------------- */
 @media only screen and (min-width: 1024px) {
     .widget-area {
