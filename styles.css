@@ -216,6 +216,29 @@ ul.wordcamp-block.wordcamp-post-list li:nth-child(7) {
     margin-top: 1em;
 }
 
+.single-wcb_session .entry-content {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.single-wcb_session p {
+    max-width: 1240px!important;
+}
+
+.single-wcb_session #session-speaker-names {
+    padding-left: 0;
+}
+
+.single-wcb_session #session-speaker-names:before {
+    content: 'Presentado por:';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.single-wcb_session .entry-footer {
+    max-width: 1240px;
+}
+
 /* --------- Estilos Patrocinadores ------------------------------- */
 @media only screen and (min-width: 1024px) {
     .widget-area {
