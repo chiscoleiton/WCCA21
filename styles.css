@@ -196,6 +196,26 @@ ul.wordcamp-block.wordcamp-post-list li:nth-child(7) {
 	display: none;
 }
 
+/* --------- Estilos Sesiones ------------------------------- */
+.page-id-9 ul.wordcamp-post-list {
+    padding-left: 0;
+}
+
+.page-id-9 .wordcamp-post-list__post {
+    border: 3px solid #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    box-shadow: 10px 10px 0 #fff;
+}
+
+.page-id-9 .wordcamp-sessions__time-location {
+    background: #fff;
+    color: #1e1e2c;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 1em;
+}
+
 /* --------- Estilos Patrocinadores ------------------------------- */
 @media only screen and (min-width: 1024px) {
     .widget-area {
