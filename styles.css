@@ -499,6 +499,15 @@ form#subscribe-blog-blog_subscription-4 {
 
 }
 
+/* --------- Estilos Agenda ------------------------ */
+.wordcamp-schedule__column-header {
+    background-color: #f8ad1e!important;
+}
+
+.wordcamp-schedule__column-header.is-column-time {
+    color: #f8ad1e!important;
+}
+
 
 /* --------- Estilos Asistentes ------------------------ */
 
