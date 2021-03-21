@@ -218,7 +218,7 @@ section#blog_subscription-4 {
 }
 
 /**ESCONDER SPEAKER WP CENTROAMÉRICA**/
-ul.wordcamp-block.wordcamp-post-list li:nth-child(7) {
+ul.wordcamp-block.wordcamp-post-list li:nth-child(8) {
 	display: none;
 }
 
@@ -508,6 +508,175 @@ form#subscribe-blog-blog_subscription-4 {
     color: #f8ad1e!important;
 }
 
+.wordcamp-schedule__day {
+	background-color: transparent !important;
+}
+
+span.wordcamp-schedule__column-header {
+	color: #1e1e2c !important;
+}
+
+.wordcamp-schedule__date:nth-of-type(2) {
+	margin-top: 1em;
+}
+
+#wordcamp-schedule__session-1870 h4,
+#wordcamp-schedule__session-1894 h4,
+#wordcamp-schedule__session-1901 h4,
+#wordcamp-schedule__session-1924 h4,
+#wordcamp-schedule__session-1936 h4,
+#wordcamp-schedule__session-1938 h4,
+#wordcamp-schedule__session-1972 h4,
+#wordcamp-schedule__session-1974 h4,
+#wordcamp-schedule__session-2022 h4,
+#wordcamp-schedule__session-2033 h4,
+#wordcamp-schedule__session-2037 h4,
+#wordcamp-schedule__session-2040 h4,
+#wordcamp-schedule__session-2048 h4,
+#wordcamp-schedule__session-2050 h4,
+#wordcamp-schedule__session-2052 h4,
+#wordcamp-schedule__session-2054 h4,
+#wordcamp-schedule__session-2113 h4 {
+	justify-content: center;
+}
+
+#wordcamp-schedule__session-1901 dd,
+#wordcamp-schedule__session-1924 dd,
+#wordcamp-schedule__session-1938 dd,
+#wordcamp-schedule__session-1974 dd,
+#wordcamp-schedule__session-2037 dd,
+#wordcamp-schedule__session-2040 dd,
+#wordcamp-schedule__session-2050 dd,
+#wordcamp-schedule__session-2054 dd {
+	display: none;
+}
+
+dl.wordcamp-schedule__session-speakers dd {
+	padding-left: 0;
+}
+
+h2.wordcamp-schedule__date:nth-of-type(2) {
+	margin-top: 1em;
+}
+
+/**Ocultar link to slides**/
+.session-video {
+	display: none;
+}
+
+/**BANDERA DE ARGENTINA**/
+#wordcamp-schedule__session-1892 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1964 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2024 dl.wordcamp-schedule__session-speakers dd a:after {
+	content: '🇦🇷';
+	padding-left: 5px;
+}
+
+/**BANDERA DE COLOMBIA**/
+#wordcamp-schedule__session-1920 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after,
+#wordcamp-schedule__session-2272 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after {
+	content: '🇨🇴';
+	padding-left: 5px;
+}
+
+/**BANDERA DE COSTA RICA**/
+#wordcamp-schedule__session-1866 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1870 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after,
+#wordcamp-schedule__session-1968 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2013 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2026 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2044 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2048 h4 a:after,
+#wordcamp-schedule__session-2107 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2113 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after,
+#wordcamp-schedule__session-2173 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2272 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
+	content: '🇨🇷';
+	padding-left: 5px;
+}
+
+/**BANDERA DE EL SALVADOR**/
+#wordcamp-schedule__session-1936 h4 a:after,
+#wordcamp-schedule__session-1958 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1964 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
+	content: '🇸🇻';
+	padding-left: 5px;
+}
+
+/**BANDERA DE ESPAÑA**/
+#wordcamp-schedule__session-1888 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1920 dl.wordcamp-schedule__session-speakers dd:nth-of-type(3) a:after,
+#wordcamp-schedule__session-1930 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1947 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1951 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2020 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2167 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2272 dl.wordcamp-schedule__session-speakers dd:nth-of-type(3) a:after {
+	content: '🇪🇸';
+	padding-left: 5px;
+}
+
+/**BANDERA DE EE.UU.**/
+#wordcamp-schedule__session-2022 dl.wordcamp-schedule__session-speakers dd a:after {
+	content: '🇺🇸';
+	padding-left: 5px;
+}
+
+/**BANDERA DE GUATEMALA**/
+#wordcamp-schedule__session-1894 h4 a:after {
+	content: '🇬🇹';
+	padding-left: 5px;
+}
+
+/**BANDERA DE HONDURAS**/
+#wordcamp-schedule__session-1972 h4 a:after {
+	content: '🇭🇳';
+	padding-left: 5px;
+}
+
+/**BANDERA DE NICARAGUA**/
+#wordcamp-schedule__session-1870 dl.wordcamp-schedule__session-speakers dd:nth-of-type(3) a:after,
+#wordcamp-schedule__session-1912 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2017 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2031 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2033 h4 a:after,
+#wordcamp-schedule__session-2113 dl.wordcamp-schedule__session-speakers dd:nth-of-type(3) a:after,
+#wordcamp-schedule__session-2179 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2278 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after,
+#wordcamp-schedule__session-2285 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
+	content: '🇳🇮';
+	padding-left: 5px;
+}
+
+/**BANDERA DE PANAMÁ**/
+#wordcamp-schedule__session-1934 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-2052 h4 a:after,
+#wordcamp-schedule__session-2278 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
+	content: '🇵🇦';
+	padding-left: 5px;
+}
+
+/**BANDERA DE URUGUAY**/
+#wordcamp-schedule__session-1870 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-1964 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after,
+#wordcamp-schedule__session-1990 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2028 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2100 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
+#wordcamp-schedule__session-2113 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
+	content: '🇺🇾';
+	padding-left: 5px;
+}
+
+/**BANDERA DE VENEZUELA**/
+#wordcamp-schedule__session-1920 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
+	content: '🇻🇪';
+	padding-left: 5px;
+}
+
+/**IMPORTANTE: NO DUPLICAR BANDERA**/
+.wcb-session-favourite-icon a:after {
+	display: none;
+}
 
 /* --------- Estilos Asistentes ------------------------ */
 
