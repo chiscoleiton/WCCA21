@@ -731,6 +731,29 @@ span.tix-last {
 	
 }
 
+/* --------- Estilos Asistentes ------------------------ */
+.page-id-12 .wordcamp-organizer.wordcamp-organizers__post {
+    position: relative;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-id-12 .wordcamp-organizers__title {
+    background: #eeaa46;
+    padding: 5px 20px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    position: absolute;
+    bottom: -45px;
+}
+
+.page-id-12 .wordcamp-image__avatar-container img {
+    border-radius: 50%;
+}
+
 
 /* --------- Estilos Codigo de Conducta ------------------------ */
 
