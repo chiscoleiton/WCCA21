@@ -201,6 +201,7 @@ section#blog_subscription-4 {
 .single-wcb_speaker .speaker-avatar img {
     border-radius: 50%;
     border: 4px solid #8ce8e1;
+    background-color: #8ce8e1;
 }
 
 .single-wcb_speaker #speaker-session-names {
@@ -691,8 +692,9 @@ h2.wordcamp-schedule__date:nth-of-type(2) {
 	width: 95px;
 	height: 95px;
 	border-radius: 50%;
-	margin: 105px auto 0;
+	margin: 105px calc(50% - 42.5px) 0;
 	border: 5px solid #1e1e2c;
+	background-color: #1e1e2c;
 }
 
 #tix-attendees .tix-field {
