@@ -680,6 +680,20 @@ h2.wordcamp-schedule__date:nth-of-type(2) {
 	display: none;
 }
 
+@media only screen and (max-width: 480px) {
+	h3.wordcamp-schedule__time-slot-header.has-sessions {
+	    background: #f8ad1e;
+	    color: #1d2327;
+	    font-weight: bold;
+	}
+		dl.wordcamp-schedule__session-tracks dd {
+		padding-left: 0;
+	}
+		h4.wordcamp-schedule__session-title {
+	    justify-content: flex-start!important;
+	}
+}
+
 /* --------- Estilos Asistentes ------------------------ */
 
 #tix-attendees li {
