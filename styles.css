@@ -416,9 +416,8 @@ h4.sponsor-level-title {
 }
 
 .sponsor-level.izalco a img {
-    max-width: 200px !important;
+    width: 200px!important;
     height: auto!important;
-    min-height: 80px !important;/*FIXME*/
 }
 
 @media only screen and (max-width: 652px) {
