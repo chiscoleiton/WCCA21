@@ -588,6 +588,7 @@ h2.wordcamp-schedule__date:nth-of-type(2) {
 /**BANDERA DE COSTA RICA**/
 #wordcamp-schedule__session-1866 dl.wordcamp-schedule__session-speakers dd a:after,
 #wordcamp-schedule__session-1870 dl.wordcamp-schedule__session-speakers dd:nth-of-type(2) a:after,
+#wordcamp-schedule__session-1936 h4 a:after,
 #wordcamp-schedule__session-1968 dl.wordcamp-schedule__session-speakers dd a:after,
 #wordcamp-schedule__session-2013 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
 #wordcamp-schedule__session-2026 dl.wordcamp-schedule__session-speakers dd a:after,
@@ -603,7 +604,6 @@ h2.wordcamp-schedule__date:nth-of-type(2) {
 }
 
 /**BANDERA DE EL SALVADOR**/
-#wordcamp-schedule__session-1936 h4 a:after,
 #wordcamp-schedule__session-1958 dl.wordcamp-schedule__session-speakers dd a:after,
 #wordcamp-schedule__session-1964 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
 	content: '🇸🇻';
@@ -630,20 +630,22 @@ h2.wordcamp-schedule__date:nth-of-type(2) {
 }
 
 /**BANDERA DE GUATEMALA**/
-#wordcamp-schedule__session-1894 h4 a:after {
+#wordcamp-schedule__session-1894 h4 a:after,
+#wordcamp-schedule__session-2052 h4 a:after {
 	content: '🇬🇹';
 	padding-left: 5px;
 }
 
 /**BANDERA DE HONDURAS**/
-#wordcamp-schedule__session-1972 h4 a:after {
+/* {
 	content: '🇭🇳';
 	padding-left: 5px;
-}
+}*/
 
 /**BANDERA DE NICARAGUA**/
 #wordcamp-schedule__session-1870 dl.wordcamp-schedule__session-speakers dd:nth-of-type(3) a:after,
 #wordcamp-schedule__session-1912 dl.wordcamp-schedule__session-speakers dd a:after,
+#wordcamp-schedule__session-1972 h4 a:after,
 #wordcamp-schedule__session-2017 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
 #wordcamp-schedule__session-2031 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after,
 #wordcamp-schedule__session-2033 h4 a:after,
@@ -659,7 +661,6 @@ h2.wordcamp-schedule__date:nth-of-type(2) {
 
 /**BANDERA DE PANAMÁ**/
 #wordcamp-schedule__session-1934 dl.wordcamp-schedule__session-speakers dd a:after,
-#wordcamp-schedule__session-2052 h4 a:after,
 #wordcamp-schedule__session-2278 dl.wordcamp-schedule__session-speakers dd:first-of-type a:after {
 	content: '🇵🇦';
 	padding-left: 5px;
